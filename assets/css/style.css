@@ -14,7 +14,7 @@
     border-style: none;
 }
 
-.bg-img{
+.bg-img {
     width: 100%;
     position: fixed;
     z-index: -100;
@@ -22,6 +22,7 @@
 }
 
 body {
+    background: radial-gradient(circle, white, black);
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -30,7 +31,7 @@ body {
     margin: 0;
     color: white;
     transition: 0.3s;
-    background: #ffffff;
+    /* background: #ffffff; */
     color: #000;
 }
 
